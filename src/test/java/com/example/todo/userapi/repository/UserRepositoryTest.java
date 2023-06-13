@@ -25,7 +25,7 @@ class UserRepositoryTest {
     void saveTest() {
         //given
         User newUser = User.builder()
-                .email("abc1234@abc.com")
+                .email("abc123@abc.com")
                 .password("1234")
                 .userName("망아지")
                 .build();
